@@ -209,7 +209,7 @@ PS:
 cJSON 对象是指针类型 ，所以在创建之后一定要调用 cJSON_Delete 删除函数。
 
 
-```
+```c
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
